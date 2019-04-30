@@ -58,6 +58,8 @@ _Senior Software Engineer_
     - Remove stale or redundant operations
     - Decrease the call quantity to the database by removing or combining queries
 
+&nbsp;
+
 March 2016 - August 2018
 **Carvana**
 _Software Engineer_
@@ -70,6 +72,8 @@ _Software Engineer_
   - Unit and Integration Tests
   - Clean/Onion Architecture
 
+&nbsp;
+
 April 2015 - March 2016
 **Spireon, Inc.**
 _Lead Software Engineer_
@@ -77,6 +81,8 @@ _Lead Software Engineer_
 - Built a RESTful API using ASP.NET WebAPI.
 - Implemented basic CRUD operations.
 - Directed and participated in the develompment of an iOS app written in Objective-C and Swift.
+
+&nbsp;
 
 April 2011 - April 2015
 **InEight, Inc.**
@@ -91,19 +97,27 @@ _Software Engineer I_
 - Built RESTful APIs and micro services using NodeJS.
 - Used socket.io to create open sockets for web clients to allow asynchronous updates.
 
+&nbsp;
+
 _Senior Quality Assurance Engineer_
 - Used ASP.NET MVC4 to build a rudimentary CI tool that facilliated the selection and deployment of specific application builds to different test environments.
 - Translated manual test cases into automated test scripts using the Ranorex DLL.
+
+&nbsp;
 
 February 2009 - April 2011
 **UTC Retail, Inc.**
 _Quality Assurance Engineer III_
 - Built a test automation framework using QuickTest Professional and Visual Basic.
 
+&nbsp;
+
 March 2008 - February 2009
 **Mediserve Information Systems, Inc.**
 _Quality Assurance Engineer II_
 - Created and executed manual test cases against .NET applications using MS Sql Server persistence.  Formed and executed SQL queries to validated data was correctly stored in MS Sql Server.
+
+&nbsp;
 
 May 2006 - March 2008
 **Océ Reprographic Technologies**
