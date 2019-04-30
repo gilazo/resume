@@ -1,0 +1,528 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>resume.md</title>
+<meta http-equiv="Content-type" content="text/html;charset=UTF-8">
+
+<style>
+/*---------------------------------------------------------------------------------------------
+ *  Copyright (c) Microsoft Corporation. All rights reserved.
+ *  Licensed under the MIT License. See License.txt in the project root for license information.
+ *--------------------------------------------------------------------------------------------*/
+
+body {
+	font-family: "Segoe WPC", "Segoe UI", "SFUIText-Light", "HelveticaNeue-Light", sans-serif, "Droid Sans Fallback";
+	font-size: 14px;
+	padding: 0 12px;
+	line-height: 22px;
+	word-wrap: break-word;
+}
+
+#code-csp-warning {
+	position: fixed;
+	top: 0;
+	right: 0;
+	color: white;
+	margin: 16px;
+	text-align: center;
+	font-size: 12px;
+	font-family: sans-serif;
+	background-color:#444444;
+	cursor: pointer;
+	padding: 6px;
+	box-shadow: 1px 1px 1px rgba(0,0,0,.25);
+}
+
+#code-csp-warning:hover {
+	text-decoration: none;
+	background-color:#007acc;
+	box-shadow: 2px 2px 2px rgba(0,0,0,.25);
+}
+
+
+body.scrollBeyondLastLine {
+	margin-bottom: calc(100vh - 22px);
+}
+
+body.showEditorSelection .code-line {
+	position: relative;
+}
+
+body.showEditorSelection .code-active-line:before,
+body.showEditorSelection .code-line:hover:before {
+	content: "";
+	display: block;
+	position: absolute;
+	top: 0;
+	left: -12px;
+	height: 100%;
+}
+
+body.showEditorSelection li.code-active-line:before,
+body.showEditorSelection li.code-line:hover:before {
+	left: -30px;
+}
+
+.vscode-light.showEditorSelection .code-active-line:before {
+	border-left: 3px solid rgba(0, 0, 0, 0.15);
+}
+
+.vscode-light.showEditorSelection .code-line:hover:before {
+	border-left: 3px solid rgba(0, 0, 0, 0.40);
+}
+
+.vscode-dark.showEditorSelection .code-active-line:before {
+	border-left: 3px solid rgba(255, 255, 255, 0.4);
+}
+
+.vscode-dark.showEditorSelection .code-line:hover:before {
+	border-left: 3px solid rgba(255, 255, 255, 0.60);
+}
+
+.vscode-high-contrast.showEditorSelection .code-active-line:before {
+	border-left: 3px solid rgba(255, 160, 0, 0.7);
+}
+
+.vscode-high-contrast.showEditorSelection .code-line:hover:before {
+	border-left: 3px solid rgba(255, 160, 0, 1);
+}
+
+img {
+	max-width: 100%;
+	max-height: 100%;
+}
+
+a {
+	color: #4080D0;
+	text-decoration: none;
+}
+
+a:focus,
+input:focus,
+select:focus,
+textarea:focus {
+	outline: 1px solid -webkit-focus-ring-color;
+	outline-offset: -1px;
+}
+
+hr {
+	border: 0;
+	height: 2px;
+	border-bottom: 2px solid;
+}
+
+h1 {
+	padding-bottom: 0.3em;
+	line-height: 1.2;
+	border-bottom-width: 1px;
+	border-bottom-style: solid;
+}
+
+h1, h2, h3 {
+	font-weight: normal;
+}
+
+h1 code,
+h2 code,
+h3 code,
+h4 code,
+h5 code,
+h6 code {
+	font-size: inherit;
+	line-height: auto;
+}
+
+a:hover {
+	color: #4080D0;
+	text-decoration: underline;
+}
+
+table {
+	border-collapse: collapse;
+}
+
+table > thead > tr > th {
+	text-align: left;
+	border-bottom: 1px solid;
+}
+
+table > thead > tr > th,
+table > thead > tr > td,
+table > tbody > tr > th,
+table > tbody > tr > td {
+	padding: 5px 10px;
+}
+
+table > tbody > tr + tr > td {
+	border-top: 1px solid;
+}
+
+blockquote {
+	margin: 0 7px 0 5px;
+	padding: 0 16px 0 10px;
+	border-left: 5px solid;
+}
+
+code {
+	font-family: Menlo, Monaco, Consolas, "Droid Sans Mono", "Courier New", monospace, "Droid Sans Fallback";
+	font-size: 14px;
+	line-height: 19px;
+}
+
+body.wordWrap pre {
+	white-space: pre-wrap;
+}
+
+.mac code {
+	font-size: 12px;
+	line-height: 18px;
+}
+
+pre:not(.hljs),
+pre.hljs code > div {
+	padding: 16px;
+	border-radius: 3px;
+	overflow: auto;
+}
+
+/** Theming */
+
+.vscode-light,
+.vscode-light pre code {
+	color: rgb(30, 30, 30);
+}
+
+.vscode-dark,
+.vscode-dark pre code {
+	color: #DDD;
+}
+
+.vscode-high-contrast,
+.vscode-high-contrast pre code {
+	color: white;
+}
+
+.vscode-light code {
+	color: #A31515;
+}
+
+.vscode-dark code {
+	color: #D7BA7D;
+}
+
+.vscode-light pre:not(.hljs),
+.vscode-light code > div {
+	background-color: rgba(220, 220, 220, 0.4);
+}
+
+.vscode-dark pre:not(.hljs),
+.vscode-dark code > div {
+	background-color: rgba(10, 10, 10, 0.4);
+}
+
+.vscode-high-contrast pre:not(.hljs),
+.vscode-high-contrast code > div {
+	background-color: rgb(0, 0, 0);
+}
+
+.vscode-high-contrast h1 {
+	border-color: rgb(0, 0, 0);
+}
+
+.vscode-light table > thead > tr > th {
+	border-color: rgba(0, 0, 0, 0.69);
+}
+
+.vscode-dark table > thead > tr > th {
+	border-color: rgba(255, 255, 255, 0.69);
+}
+
+.vscode-light h1,
+.vscode-light hr,
+.vscode-light table > tbody > tr + tr > td {
+	border-color: rgba(0, 0, 0, 0.18);
+}
+
+.vscode-dark h1,
+.vscode-dark hr,
+.vscode-dark table > tbody > tr + tr > td {
+	border-color: rgba(255, 255, 255, 0.18);
+}
+
+.vscode-light blockquote,
+.vscode-dark blockquote {
+	background: rgba(127, 127, 127, 0.1);
+	border-color: rgba(0, 122, 204, 0.5);
+}
+
+.vscode-high-contrast blockquote {
+	background: transparent;
+	border-color: #fff;
+}
+</style>
+
+<style>
+/* Tomorrow Theme */
+/* http://jmblog.github.com/color-themes-for-google-code-highlightjs */
+/* Original theme - https://github.com/chriskempson/tomorrow-theme */
+
+/* Tomorrow Comment */
+.hljs-comment,
+.hljs-quote {
+	color: #8e908c;
+}
+
+/* Tomorrow Red */
+.hljs-variable,
+.hljs-template-variable,
+.hljs-tag,
+.hljs-name,
+.hljs-selector-id,
+.hljs-selector-class,
+.hljs-regexp,
+.hljs-deletion {
+	color: #c82829;
+}
+
+/* Tomorrow Orange */
+.hljs-number,
+.hljs-built_in,
+.hljs-builtin-name,
+.hljs-literal,
+.hljs-type,
+.hljs-params,
+.hljs-meta,
+.hljs-link {
+	color: #f5871f;
+}
+
+/* Tomorrow Yellow */
+.hljs-attribute {
+	color: #eab700;
+}
+
+/* Tomorrow Green */
+.hljs-string,
+.hljs-symbol,
+.hljs-bullet,
+.hljs-addition {
+	color: #718c00;
+}
+
+/* Tomorrow Blue */
+.hljs-title,
+.hljs-section {
+	color: #4271ae;
+}
+
+/* Tomorrow Purple */
+.hljs-keyword,
+.hljs-selector-tag {
+	color: #8959a8;
+}
+
+.hljs {
+	display: block;
+	overflow-x: auto;
+	color: #4d4d4c;
+	padding: 0.5em;
+}
+
+.hljs-emphasis {
+	font-style: italic;
+}
+
+.hljs-strong {
+	font-weight: bold;
+}
+</style>
+
+<style>
+/*
+ * Markdown PDF CSS
+ */
+
+ body {
+	font-family:  "Meiryo", "Segoe WPC", "Segoe UI", "SFUIText-Light", "HelveticaNeue-Light", sans-serif, "Droid Sans Fallback";
+}
+
+pre {
+	background-color: #f8f8f8;
+	border: 1px solid #cccccc;
+	border-radius: 3px;
+	overflow-x: auto;
+	white-space: pre-wrap;
+	overflow-wrap: break-word;
+}
+
+pre:not(.hljs) {
+	padding: 23px;
+	line-height: 19px;
+}
+
+blockquote {
+	background: rgba(127, 127, 127, 0.1);
+	border-color: rgba(0, 122, 204, 0.5);
+}
+
+.emoji {
+	height: 1.4em;
+}
+
+/* for inline code */
+:not(pre):not(.hljs) > code {
+	color: #C9AE75; /* Change the old color so it seems less like an error */
+	font-size: inherit;
+}
+
+/* Page Break : use <div class="page"/> to insert page break
+-------------------------------------------------------- */
+.page {
+	page-break-after: always;
+}
+
+</style>
+
+</head>
+<body>
+<p>Tyler Daniel / (480) 370-4751 / aztdaniel@gmail.com</p>
+<p> </p>
+<h5 id="professional-summary">PROFESSIONAL SUMMARY</h5>
+<hr>
+<ul>
+<li>Over a decade of experience in software development and testing.</li>
+<li>Six years of manual testing experience.</li>
+<li>Two (collective) years of automated testing experience.</li>
+<li>Two years of front-end development experience.</li>
+<li>Two years of full-stack development experience.</li>
+<li>Two years of back-end development experience.</li>
+<li>Experience with AngularJS, NodeJS, ReactJS, MVC, WebApi, etc.</li>
+<li>Experience building RESTful services using .NET Framework/Core WebAPI.</li>
+<li>Experience building micro services using .NET Framwork/Core WebAPI.</li>
+<li>Experience building solutions using Test Driven Design principles.</li>
+<li>Experience collaborating with others using GIT.</li>
+<li>Experience building web front-end experiences using AngularJS and ReactJS.</li>
+</ul>
+<p> </p>
+<h5 id="technical-skills">TECHNICAL SKILLS</h5>
+<hr>
+<ul>
+<li><strong>Languages:</strong> C# (Advanced), Javascript (Intermediate), Ruby on Rails (Intermediate), Java (Novice)</li>
+<li><strong>Operating Systems:</strong> Windows, macOS, Linux</li>
+<li><strong>Cloud:</strong> Heroku (Novice), Azure (Novice), AWS (Novice), Redis (Novice)</li>
+<li><strong>Web:</strong> ReactJS (Intermediate), JSON, Basic Auth, Jwt</li>
+<li><strong>Database:</strong> Microsoft SQL Server, Postgres, MongoDB, CosmosDB</li>
+</ul>
+<p> </p>
+<h5 id="professional-experience">PROFESSIONAL EXPERIENCE</h5>
+<hr>
+<p>August 2018 - Present
+<strong>HomeLight</strong>
+<em>Senior Software Engineer</em></p>
+<ul>
+<li>Decoupled Investor business from Agent business by:
+<ul>
+<li>Collecting requirements from each business</li>
+<li>Identifying commonalities of each business</li>
+<li>Generating the following phased project plan:
+<ul>
+<li>Create new entities</li>
+<li>Implement business rules</li>
+<li>Check data parity</li>
+<li>Back fill required data</li>
+<li>Remove stale code</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>Fixed http timeouts to an in house priorty queue by identifying and implementing the following:
+<ul>
+<li>Hourly scheduled job to prune all unworkable leads</li>
+<li>Prune top N leads from the queue (where N is configurable) on every get request</li>
+<li>Optimize prune operations by utilizing the native Redis zrem API</li>
+<li>Optimize business rules for determing workability
+<ul>
+<li>Order workable checks to be most optimal</li>
+<li>Remove stale or redundant operations</li>
+<li>Decrease the call quantity to the database by removing or combining queries</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+<p>March 2016 - August 2018
+<strong>Carvana</strong>
+<em>Software Engineer</em></p>
+<ul>
+<li>Built SOA software for a transaction process. This involved creating small services for determining purchase price, available ancillary products, payment and financing options, and purchase orders.</li>
+<li>Used .NET Core and Service Fabric to build highly scalable services.</li>
+<li>Transformed a monolithic transaction process into a cohesive an maintainable series of single responsibility services.</li>
+<li>As a member of a SCRUM team I participated in identifying best practices and code standards. These included:
+<ul>
+<li>Clean Code</li>
+<li>S.O.L.I.D.</li>
+<li>Unit and Integration Tests</li>
+<li>Clean/Onion Architecture</li>
+</ul>
+</li>
+</ul>
+<p>April 2015 - March 2016
+<strong>Spireon, Inc.</strong>
+<em>Lead Software Engineer</em></p>
+<ul>
+<li>Built a vehicle tracking web solution utilizing google maps to to determine a path using multiple geo points.</li>
+<li>Built a RESTful API using ASP.NET WebAPI.</li>
+<li>Implemented basic CRUD operations.</li>
+<li>Directed and participated in the develompment of an iOS app written in Objective-C and Swift.</li>
+</ul>
+<p>April 2011 - April 2015
+<strong>InEight, Inc.</strong>
+<em>Software Engineer I</em></p>
+<ul>
+<li>Built a web admin portal using AngularJS and Bootstrap.</li>
+<li>Learned and used the following &quot;Best&quot; development practices and principles:
+<ul>
+<li>Inversion of Control</li>
+<li>Bootstrapping</li>
+<li>Seperation of Concerns</li>
+<li>S.O.L.I.D.</li>
+<li>Test Driven Development</li>
+</ul>
+</li>
+<li>Built RESTful APIs and micro services using NodeJS.</li>
+<li>Used socket.io to create open sockets for web clients to allow asynchronous updates.</li>
+</ul>
+<p><em>Senior Quality Assurance Engineer</em></p>
+<ul>
+<li>Used ASP.NET MVC4 to build a rudimentary CI tool that facilliated the selection and deployment of specific application builds to different test environments.</li>
+<li>Translated manual test cases into automated test scripts using the Ranorex DLL.</li>
+</ul>
+<p>February 2009 - April 2011
+<strong>UTC Retail, Inc.</strong>
+<em>Quality Assurance Engineer III</em></p>
+<ul>
+<li>Built a test automation framework using QuickTest Professional and Visual Basic.</li>
+</ul>
+<p>March 2008 - February 2009
+<strong>Mediserve Information Systems, Inc.</strong>
+<em>Quality Assurance Engineer II</em></p>
+<ul>
+<li>Created and executed manual test cases against .NET applications using MS Sql Server persistence.  Formed and executed SQL queries to validated data was correctly stored in MS Sql Server.</li>
+</ul>
+<p>May 2006 - March 2008
+<strong>Océ Reprographic Technologies</strong>
+<em>Quality Assurance Engineer I</em></p>
+<ul>
+<li>Created automated test scripts using QuickTest Professional.</li>
+</ul>
+<p> </p>
+<h5 id="education">EDUCATION</h5>
+<hr>
+<p><strong>American InterContinental University Online</strong></p>
+<ul>
+<li>Bachelors in Information Technology</li>
+<li>Associates in Business Administration</li>
+</ul>
+
+</body>
+</html>
