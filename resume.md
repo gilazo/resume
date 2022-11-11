@@ -7,14 +7,15 @@ Tyler Daniel / (480) 370-4751 / aztdaniel@gmail.com
 ---
 
 - Two (collective) years of automated testing experience.
-- Two years of front-end development experience.
-- Two years of full-stack development experience.
-- Two years of back-end development experience.
+- Four years of front-end development experience.
+- Six years of full-stack development experience.
+- Seven years of back-end development experience.
 - Six years of manual testing experience.
 - Experience with AngularJS, NodeJS, ReactJS, MVC, WebApi, etc.
-- Experience building RESTful services using .NET Framework/Core WebAPI.
-- Experience building micro services using .NET Framwork/Core WebAPI.
+- Experience building RESTful services using .NET WebApi.
+- Experience building micro services using .NET WebApi.
 - Experience building solutions using Test Driven Design principles.
+- Experience building solutions using Domain Driven Design principles.
 - Experience collaborating with others using GIT.
 - Experience building web front-end experiences using AngularJS and ReactJS.
 
@@ -36,6 +37,29 @@ Tyler Daniel / (480) 370-4751 / aztdaniel@gmail.com
 
 ---
 
+August 2019 - Present
+**Carvana**
+_Team Lead, Engineer_
+- Worked directly with a Product Owner to translate business requirements to workable user stories
+- Worked with other Team Leads and Product Owners on cross team projects
+- Lead a team of engineers and accomplished the following:
+  - Converted the single vehicle service contract offering to a branded tiered offering
+  - Migrated multiple microservices away from Azure app services and into Kubernetes
+  - Decomposed a monolith into logical microservices
+  - Created a new system that allowed for eagerly building protection products
+  - Mentored several team members from entry level positions into more experienced positions
+    - Taught n-tier (clean architecture) design and the importance of boundaries
+    - Taught Domain Driven Design principles
+    - Taught Test Driven Design principles
+    - Taught SOLID principles and design patterns
+    - Taught functional programming priniples
+      - immutability
+      - pure functions
+      - monads
+      - pattern matching
+
+&nbsp;
+
 August 2018 - Present
 **HomeLight**
 _Senior Software Engineer_
@@ -50,7 +74,7 @@ _Senior Software Engineer_
     - Remove stale code
 - Fixed http timeouts to an in house priorty queue by identifying and implementing the following:
   - Hourly scheduled job to prune all unworkable leads
-  - Prune top N leads from the queue (where N is configurable) on every get request
+  - Prune top *n* leads from the queue (where *n* is configurable) on every get request
   - Optimize prune operations by utilizing the native Redis zrem API
   - Optimize business rules for determing workability
     - Order workable checks to be most optimal
