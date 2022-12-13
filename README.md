@@ -42,7 +42,7 @@ August 2019 - Present
 _Team Lead, Engineer_
 - Worked directly with a Product Owner to translate business requirements to workable user stories
 - Worked with other Team Leads and Product Owners on cross team projects
-- Lead a team of engineers and accomplished the following:
+- Led a team of engineers and accomplished the following:
   - Converted the single vehicle service contract offering to a branded tiered offering
   - Migrated multiple microservices away from Azure app services and into Kubernetes
   - Decomposed a monolith into logical microservices
