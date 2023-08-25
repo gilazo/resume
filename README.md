@@ -5,11 +5,11 @@ Tyler Daniel / (480) 370-4751 / aztdaniel@gmail.com
 ##### PROFESSIONAL SUMMARY
 
 ---
-
-- Two (collective) years of automated testing experience.
-- Four years of front-end development experience.
-- Six years of full-stack development experience.
+- Four years of team lead experience.
 - Seven years of back-end development experience.
+- Four years of front-end development experience.
+- Ten years of full-stack development experience.
+- Two (collective) years of automated testing experience.
 - Six years of manual testing experience.
 - Experience with AngularJS, NodeJS, ReactJS, MVC, WebApi, etc.
 - Experience building RESTful services using .NET WebApi.
@@ -25,10 +25,10 @@ Tyler Daniel / (480) 370-4751 / aztdaniel@gmail.com
 
 ---
 
-- **Languages:** C# (Advanced), Javascript (Intermediate), Ruby on Rails (Intermediate), Java
+- **Languages:** C#, Javascript, Ruby on Rails
 - **Operating Systems:** Windows, macOS, Linux
-- **Cloud:** Heroku, Azure, AWS, Redis
-- **Web:** ReactJS (Intermediate), JSON, Basic Auth, Jwt
+- **Cloud:** Azure
+- **Web:** ReactJS, JSON, Jwt
 - **Database:** Microsoft SQL Server, Postgres, MongoDB, CosmosDB
 
 &nbsp;
@@ -40,7 +40,6 @@ Tyler Daniel / (480) 370-4751 / aztdaniel@gmail.com
 August 2019 - Present
 **Carvana**
 _Team Lead, Engineer_
-- Worked directly with a Product Owner to translate business requirements to workable user stories
 - Worked with other Team Leads and Product Owners on cross team projects
 - Led a team of engineers and accomplished the following:
   - Converted the single vehicle service contract offering to a branded tiered offering
@@ -57,6 +56,12 @@ _Team Lead, Engineer_
       - pure functions
       - monads
       - pattern matching
+- Managed two teams and their domains
+  - Worked with each Product Owner to translate business requirements to Acceptance Criteria
+  - Guided both teams in technical discussions and designs.  This included:
+    - evaluating current systems architecture to determine possible solutions for business requirements
+    - documenting designs using flow charts
+    - planning and executing units of work to complete the project/product
 
 &nbsp;
 
