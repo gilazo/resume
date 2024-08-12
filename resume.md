@@ -5,12 +5,12 @@ Tyler Daniel / (480) 370-4751 / aztdaniel@gmail.com
 ##### PROFESSIONAL SUMMARY
 
 ---
-- Four years of team lead experience.
-- Seven years of back-end development experience.
-- Four years of front-end development experience.
-- Ten years of full-stack development experience.
-- Two (collective) years of automated testing experience.
+- Five years of engineering management experience.
+- Eight years of back-end development experience.
+- Five years of front-end development experience.
+- Eleven years of full-stack development experience.
 - Six years of manual testing experience.
+- Experience managing multiple development teams.
 - Experience with AngularJS, NodeJS, ReactJS, MVC, WebApi, etc.
 - Experience building RESTful services using .NET WebApi.
 - Experience building micro services using .NET WebApi.
@@ -18,6 +18,9 @@ Tyler Daniel / (480) 370-4751 / aztdaniel@gmail.com
 - Experience building solutions using Domain Driven Design principles.
 - Experience collaborating with others using GIT.
 - Experience building web front-end experiences using AngularJS and ReactJS.
+- Experience refactoring and upgrading legacy applications.
+- Experience building greenfield projects.
+- Experience building solutions using Agile/Scrum methodologies.
 
 &nbsp;
 
@@ -27,9 +30,9 @@ Tyler Daniel / (480) 370-4751 / aztdaniel@gmail.com
 
 - **Languages:** C#, Javascript, Ruby on Rails
 - **Operating Systems:** Windows, macOS, Linux
-- **Cloud:** Azure
-- **Web:** ReactJS, JSON, Jwt
-- **Database:** Microsoft SQL Server, Postgres, MongoDB, CosmosDB
+- **Cloud:** Azure, Docker
+- **Web:** ReactJS, JSON
+- **Database:** Microsoft SQL Server, MongoDB, CosmosDB
 
 &nbsp;
 
@@ -37,25 +40,9 @@ Tyler Daniel / (480) 370-4751 / aztdaniel@gmail.com
 
 ---
 
-August 2019 - Present
+October 2023 - Present:
 **Carvana**
-_Team Lead, Engineer_
-- Worked with other Team Leads and Product Owners on cross team projects
-- Led a team of engineers and accomplished the following:
-  - Converted the single vehicle service contract offering to a branded tiered offering
-  - Migrated multiple microservices away from Azure app services and into Kubernetes
-  - Decomposed a monolith into logical microservices
-  - Created a new system that allowed for eagerly building protection products
-  - Mentored several team members from entry level positions into more experienced positions
-    - Taught n-tier (clean architecture) design and the importance of boundaries
-    - Taught Domain Driven Design principles
-    - Taught Test Driven Design principles
-    - Taught SOLID principles and design patterns
-    - Taught functional programming priniples
-      - immutability
-      - pure functions
-      - monads
-      - pattern matching
+_Engineering Manager_
 - Managed two teams and their domains
   - Worked with each Product Owner to translate business requirements to Acceptance Criteria
   - Guided both teams in technical discussions and designs.  This included:
@@ -65,7 +52,30 @@ _Team Lead, Engineer_
 
 &nbsp;
 
-August 2018 - Present
+August 2019 - October 2023:
+**Carvana**
+_Team Lead, Engineer_
+- Worked with other Team Leads and Product Owners on cross team projects
+- Led a team of engineers and accomplished the following:
+  - Converted the single vehicle service contract offering to a branded tiered offering
+  - Migrated multiple microservices away from Azure app services and into Kubernetes
+  - Decomposed a monolith into logical microservices
+  - Created a new system that allowed for eagerly building vehicle service contracts
+  - Mentored several team members through to promotions
+    - Taught n-tier (clean architecture) design and the importance of boundaries
+    - Taught Domain Driven Design principles
+    - Taught Test Driven Design principles
+    - Taught SOLID principles and design patterns
+    - Taught functional programming principles
+      - immutability
+      - pure functions
+      - monads
+      - pattern matching
+
+
+&nbsp;
+
+August 2018 - August 2019:
 **HomeLight**
 _Senior Software Engineer_
 - Decoupled Investor business from Agent business by:
@@ -88,7 +98,7 @@ _Senior Software Engineer_
 
 &nbsp;
 
-March 2016 - August 2018
+March 2016 - August 2018:
 **Carvana**
 _Software Engineer_
 - Built SOA software for a transaction process. This involved creating small services for determining purchase price, available ancillary products, payment and financing options, and purchase orders.
@@ -102,7 +112,7 @@ _Software Engineer_
 
 &nbsp;
 
-April 2015 - March 2016
+April 2015 - March 2016:
 **Spireon, Inc.**
 _Lead Software Engineer_
 - Built a vehicle tracking web solution utilizing google maps to to determine a path using multiple geo points.
@@ -112,7 +122,7 @@ _Lead Software Engineer_
 
 &nbsp;
 
-April 2011 - April 2015
+April 2011 - April 2015:
 **InEight, Inc.**
 _Software Engineer I_
 - Built a web admin portal using AngularJS and Bootstrap.
@@ -133,21 +143,21 @@ _Senior Quality Assurance Engineer_
 
 &nbsp;
 
-February 2009 - April 2011
+February 2009 - April 2011:
 **UTC Retail, Inc.**
 _Quality Assurance Engineer III_
 - Built a test automation framework using QuickTest Professional and Visual Basic.
 
 &nbsp;
 
-March 2008 - February 2009
+March 2008 - February 2009:
 **Mediserve Information Systems, Inc.**
 _Quality Assurance Engineer II_
 - Created and executed manual test cases against .NET applications using MS Sql Server persistence.  Formed and executed SQL queries to validated data was correctly stored in MS Sql Server.
 
 &nbsp;
 
-May 2006 - March 2008
+May 2006 - March 2008:
 **Océ Reprographic Technologies**
 _Quality Assurance Engineer I_
 - Created automated test scripts using QuickTest Professional.
